@@ -1,0 +1,156 @@
+html {
+  font-size: 16px;
+  margin: 0rem;
+}
+
+body {
+  font-family: helvetica, sans-serif;
+  line-height: 1.4;
+  margin: 0rem;
+}
+
+.container {
+  max-width: px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/*nav*/
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header span {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.head-left img {
+  max-height: 2rem;
+  margin-top: .5rem;
+  margin-left: 1.5rem;
+}
+
+.head-left{
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 1.5rem 1.5rem;
+}
+
+nav li {
+  margin: 0 .5rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.banner {
+  display: flex;
+  background-color: #D3D3D3 ;
+  align-items: center;
+}
+
+/*banner*/
+
+.banner img {
+  max-width: 60%;
+  padding: 2rem 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.text-right h2, h1 {
+  color: #3a3a3a;
+}
+
+.button {
+  background-color: #3a3a3a;
+  max-width: 14rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.button span {
+  color: white;
+  width: 8rem;
+  margin-left: 4.7rem;
+
+}
+
+.text-right {
+  max-width: 25%;
+}
+
+/*main content*/
+
+.main-content {
+  display: flex;
+}
+
+.main-content .main-left img {
+  max-width: 90%;
+}
+
+.main-left {
+  max-width: 60%;
+}
+
+.main-right {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  max-width: 40%;
+}
+
+.orientation {
+  display: flex;
+}
+
+.orientation img {
+  max-width: 35%;
+  height: 10rem;
+}
+
+.orientation .text {
+  max-width: 65%;
+}
+
+.campus {
+  display: flex;
+}
+
+.campus img {
+  max-width: 35%;
+  height: 10rem;
+}
+
+.lecture {
+  display: flex;
+}
+
+.lecture img {
+  max-width: 35%;
+  height: 10rem;
+}
+
+.main-side-photo {
+  max-width: 35%;
+  height: 10rem;
+}
