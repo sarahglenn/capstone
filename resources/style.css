@@ -277,6 +277,8 @@ max-width: 100%;
   padding-top: 2rem;
 }
 
+
+
 .grid {
  display: flex;
  flex-wrap: wrap;
@@ -310,7 +312,9 @@ max-width: 100%;
   .learning img, .learning span, .learning p {
     display: none;
   }
-
+  .learning h2 {
+    display: inline;
+  }
  .grid {
    display: block;
    padding-bottom: 1rem;
@@ -320,6 +324,10 @@ max-width: 100%;
    max-width: 100%;
    padding: 1rem 0 1.5rem 0;
    margin: 1rem;
+ }
+
+ .learning i {
+   padding-right: 1.3rem;
  }
 
 }
