@@ -30,6 +30,14 @@ h2 {
   font-size: 1.5rem;
 }
 
+a {
+  color: #BF394B;
+}
+
+a:hover {
+  color: #300000;
+}
+
 /*nav*/
 
 .mobile-nav {
@@ -73,7 +81,7 @@ nav ul {
 }
 
 nav ul a:hover {
-     color: red;
+     color: #300000;
 
 }
 
@@ -111,7 +119,7 @@ nav a {
 /*banner*/
 .banner {
   display: flex;
-  background-color: #D3D3D3 ;
+  background-color: #CE9A9A ;
   align-items: center;
 }
 .banner img {
@@ -121,17 +129,17 @@ nav a {
 }
 
 .text-right h2, h1 {
-  color: #3a3a3a;
+  color: #300000;
 }
 
 .button {
-  background-color: #3a3a3a;
+  background-color: #300000;
   max-width: 14rem;
   padding: 1rem;
 }
 
 .button:hover {
-  background-color: red;
+  background-color: #BF394B;
 }
 
 .button span {
@@ -217,7 +225,7 @@ max-width: 100%;
 
 .main-content a {
   text-decoration: none;
-  color: #1656f9;
+  color: #BF394B;
 }
 
 @media only screen and (max-width: 700px){
@@ -269,7 +277,7 @@ max-width: 100%;
 .learning {
   max-width: 100%;
   margin: auto;
- background-color: #e8e8e8;
+ background-color: #F2D0A4;
 }
 
 .learning h1 {
@@ -379,7 +387,7 @@ video {
 }
 
 #grey {
-  background-color: #e2e2e2;
+  background-color: #CCA7AC;
 }
 
 @media only screen and (max-width: 700px) {
